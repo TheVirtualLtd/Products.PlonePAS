@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 from DateTime import DateTime
 from OFS.Image import Image
+from Products.CMFCore.interfaces import IMemberData
 from Products.PlonePAS.tests import base
 from Products.PlonePAS.tests import dummy
-from Products.CMFCore.interfaces import IMemberData
-from Products.PluggableAuthService.interfaces.events import IPropertiesUpdatedEvent  # noqa: E501
+from Products.PluggableAuthService.interfaces.events \
+    import IPropertiesUpdatedEvent
 from plone.app.testing import TEST_USER_ID as default_user
-
 import zope.component
 
 
